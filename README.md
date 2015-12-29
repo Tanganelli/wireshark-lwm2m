@@ -22,4 +22,4 @@ Restart Wireshark.
 
 ## Known issues
 
-- Wireshark will try to decode as TLV all CoAP packets, if the payload is not in the TLV encoding an error will be displayed in the wireshark dissector tree, however the CoAP dissector will still work as usual.
+- Wireshark will try to decode as TLV all CoAP packets with payload, if the payload is not in the TLV encoding an error will be displayed in the wireshark dissector tree, however the CoAP dissector will still work as usual.
